@@ -6,7 +6,7 @@ export const HeaderOut = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1d1d1d;
+  background-color: var(--dark_base);
 
   section {
     margin: 0 25px;
@@ -22,7 +22,7 @@ export const HeaderOut = styled.header`
 
 export const Button = styled.button<{$primary?: boolean}>`
   background-color: transparent;
-  color: #1db954;
+  color: var(--primary_green);
   font-size: 16px;
   font-weight: 700;
   width: 150px;
@@ -37,7 +37,7 @@ export const Button = styled.button<{$primary?: boolean}>`
   }
 
   ${props => props.$primary && css`
-      background-color: #1db954;
+      background-color: var(--primary_green);
       border: none;
       color: white
   `}

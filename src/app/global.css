@@ -1,8 +1,14 @@
+:root {
+  --primary_green: #1db954;
+  --bg_color: #121212;
+  --dark_base: #1d1d1d;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #121212;
+  background-color: var(--bg_color);
 }
