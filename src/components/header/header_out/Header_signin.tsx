@@ -14,7 +14,7 @@ function Header_signin() {
         />
       </section>
       <section>
-        <Button>Sing In</Button>
+        <Button>Sign In</Button>
         <Button $primary>Sing Up</Button>
       </section>
     </HeaderOut>
