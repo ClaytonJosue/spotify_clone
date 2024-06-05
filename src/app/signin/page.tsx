@@ -1,14 +1,17 @@
+"use client";
+
 import SigninForm from "@/components/sign_in/form/SigninForm";
 import React from "react";
 
 import "../global.css";
+import { MainSignIn } from "@/components/sign_in/form/sigin_style";
 
 function SignIn() {
   return (
-    <main>
-      Create your account and enjoy your songs!
+    <MainSignIn>
+      <span>Create your account and enjoy your songs!</span>
       <SigninForm />
-    </main>
+    </MainSignIn>
   );
 }
 
