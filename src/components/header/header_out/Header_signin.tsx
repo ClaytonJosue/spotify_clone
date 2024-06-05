@@ -1,8 +1,11 @@
 import React from "react";
 import { Button, HeaderOut } from "./header_style";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 function Header_signin() {
+  const router = useRouter();
+
   return (
     <HeaderOut>
       <section>
@@ -14,8 +17,10 @@ function Header_signin() {
         />
       </section>
       <section>
-        <Button>Sign In</Button>
-        <Button $primary>Sing Up</Button>
+        <Button onClick={() => router.push("/signin")}>Sign In</Button>
+        <Button $primary onClick={() => router.push("/signup")}>
+          Sing Up
+        </Button>
       </section>
     </HeaderOut>
   );
