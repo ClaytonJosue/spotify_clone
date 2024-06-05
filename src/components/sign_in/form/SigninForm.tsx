@@ -5,7 +5,7 @@ import { FormSignIn } from "./sigin_style";
 function SigninForm() {
   return (
     <FormSignIn action="">
-      <div className="box">
+      <div>
         <h1>Create Account</h1>
         <section>
           <label htmlFor="first_name">First name</label>
@@ -16,7 +16,7 @@ function SigninForm() {
           <input type="email" id="email" maxLength={50} required />
           <label htmlFor="password">Password</label>
           <input type="password" id="password" minLength={6} required />
-          <section className="buttons">
+          <section id="buttons">
             <button type="submit">Create account</button>
             <Link href={"/signup"}>Already have account?</Link>
           </section>

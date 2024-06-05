@@ -20,7 +20,7 @@ export const FormSignIn = styled.form`
   color: var(--dark_base);
   margin-top: 50px;
 
-  div.box {
+  div {
     width: 300px;
     background-color: #c2bfc2;
     padding: 40px 30px;
@@ -49,7 +49,7 @@ export const FormSignIn = styled.form`
       border-radius: 4px;
     }
 
-    section.buttons {
+    section#buttons {
       display: flex;
       flex-direction: column;
       align-items: center;
