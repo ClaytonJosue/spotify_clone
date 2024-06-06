@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainSingIn = styled.main`
+export const MainSingUp = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;

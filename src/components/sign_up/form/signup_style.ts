@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainSignIn = styled.main`
+export const MainSignUp = styled.main`
   color: white;
 
   span {
@@ -12,7 +12,7 @@ export const MainSignIn = styled.main`
   }
 `;
 
-export const FormSignIn = styled.form`
+export const FormSignUp = styled.form`
   display: flex;
   justify-content: center;
   align-items: center;
