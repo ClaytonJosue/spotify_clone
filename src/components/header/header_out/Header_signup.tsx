@@ -3,7 +3,7 @@ import { Button, HeaderOut } from "./header_style";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-function Header_signin() {
+function Header_signup() {
   const router = useRouter();
 
   return (
@@ -26,4 +26,4 @@ function Header_signin() {
   );
 }
 
-export default Header_signin;
+export default Header_signup;
